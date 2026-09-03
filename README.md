@@ -1,124 +1,52 @@
 # Kubera Visa Playbooks
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Status](https://img.shields.io/badge/status-Maintained-green.svg)]\n[![Last Updated](https://img.shields.io/badge/updated-September%202026-blue.svg)]\n\n**Country playbooks for work visas & residence permits**
+> **Status: supporting reference library — not an active KUBERA product and not continuously verified.**
 
-Practical, verified guidance for working and relocating to Denmark, Czechia, Norway, and Iceland.
+Country-by-country notes for work visas and residence permits. The repository currently contains material for Denmark, Czechia, Norway and Iceland.
 
----
+## Important
 
-## 📍 Supported Countries
+Immigration rules, fees, document requirements and processing times change. **Always verify every consequential requirement against the current official government or embassy source before acting.**
 
-| Country | Visa Type | Status | Last Verified |
-|---------|-----------|--------|----------------|
-| 🇩🇰 Denmark | Work visa + residence | ✅ Current | Sep 2026 |
-| 🇨🇿 Czechia | Residence permit | ✅ Current | Sep 2026 |
-| 🇳🇴 Norway | Work permit | ✅ Current | Sep 2026 |
-| 🇮🇸 Iceland | Employment visa | ✅ Current | Sep 2026 |
+This repository:
 
----
+- is informational reference material, not legal advice;
+- does not guarantee eligibility, approval, processing time or outcome;
+- must not be treated as a current government database;
+- should only receive factual maintenance backed by official sources unless the owner explicitly reactivates it as a product.
 
-## 🎯 What You'll Find
+## Countries
 
-For each country:
-- **Step-by-step visa process** with timelines
-- **Document checklists** (what to prepare)
-- **Financial requirements** (salaries, savings)
-- **Language requirements** (if any)
-- **Common mistakes** (and how to avoid them)
-- **Contact information** for authorities
-- **Real costs** (application fees, housing deposits)
-- **Timeline examples** (how long it really takes)
+| Country | Repository section | Verification rule |
+| --- | --- | --- |
+| Denmark | `denmark/` | Re-check official Danish immigration/work sources before use |
+| Czechia | `czechia/` | Re-check official Czech immigration/work sources before use |
+| Norway | `norway/` | Re-check official Norwegian immigration/work sources before use |
+| Iceland | `iceland/` | Re-check official Icelandic immigration/work sources before use |
 
----
+The folder structure was repaired in September 2026 so the four country sections exist at the repository root. Historical nested copies may remain to preserve commit history until a separate cleanup is explicitly approved.
 
-## 🚀 Quick Start
+## How to use this library
 
-**Choose your country:**
+1. Open the relevant country section.
+2. Treat the file as a preparation checklist, not as authority.
+3. Re-open the current official source for each requirement that affects an application or decision.
+4. Record the source and verification date when updating a playbook.
+5. Mark unknown or stale information instead of filling gaps from memory.
 
-```
-├── denmark/
-│   ├── work-visa-guide.md
-│   ├── checklist.md
-│   └── timeline.md
-│
-├── czechia/
-│   ├── residence-permit-guide.md
-│   ├── checklist.md
-│   └── timeline.md
-│
-├── norway/
-│   ├── work-permit-guide.md
-│   ├── checklist.md
-│   └── timeline.md
-│
-└── iceland/
-    ├── employment-visa-guide.md
-    ├── checklist.md
-    └── timeline.md
-```
+## Contributions
 
-**Read the relevant guide for your country.**
+Updates should include:
 
----
+- the exact fact being changed;
+- the official source URL;
+- the date checked;
+- a short note explaining what changed.
 
-## 📋 Typical Timeline
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) when present for repository-specific contribution rules.
 
-```
-Months 1-2: Prepare documents & find job
-Months 2-3: Apply for visa
-Months 3-4: Wait for approval
-Months 4-5: Arrange housing & travel
-Month 5+: Arrive and register
-```
+## License
 
-(Actual timelines vary by country and complexity)
+Use the repository's [`LICENSE`](./LICENSE) file as the authoritative license notice where present.
 
----
-
-## ⚠️ Important Notes
-
-✅ **These guides are based on official government sources**
-
-❌ **These are NOT legal advice**
-
-**Immigration rules change frequently.** Always verify current requirements with:
-- Official government immigration websites
-- Embassy/consulate of your country
-- Professional immigration lawyer (for complex cases)
-
-**Last updated:** September 2026
-
----
-
-## 🤝 Contributing
-
-Found outdated information? Help us improve:
-
-1. Check current government website
-2. Open a GitHub issue with:
-   - What changed
-   - Official source
-   - Proposed fix
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
-
----
-
-## 📄 License
-
-MIT License. See [LICENSE](./LICENSE) for details.
-
----
-
-## 💬 Questions?
-
-- **Email:** jobkubera@gmail.com
-- **Telegram:** [@kuberababa](https://t.me/kuberababa)
-- **GitHub Issues:** [Open an issue](https://github.com/jobkubera-lab/kubera-visa-playbooks/issues)
-
----
-
-**Remember:** Visa processes are managed by governments, not by us. We provide information to help you prepare, but success depends on meeting official requirements.
-
-**Plan ahead. Prepare documents. Follow official procedures. Good luck! 🚀**
+**Official sources remain the authority.**
